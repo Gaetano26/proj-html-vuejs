@@ -1,23 +1,22 @@
-import { reactive } from 'vue';
 
-export const store = reactive({
-   info: [
-      first = {
+ const infos = [
+      {
          num: '1.962',
          title: 'Finished session'
       },
-      second = {
+      {
         num: '100%',
         title: 'Satisfaction Rate'
      },
-     third = {
+     {
         num: '3092+',
-        title: 'Enrolled Leaners'
+        title: 'Enrolled '
      },
-     fourth = {
+     {
         num: '200',
-        title: 'Online Istructors'
+        title: 'Finished session'
      }
 
-   ]
-})
+ ]
+
+ export { infos }

@@ -18,17 +18,19 @@
 <script>
 import NavBarComponent from '../components/NavbarComponent.vue'
 import HeroComponent from '../components/HeroComponent.vue'
-
 export default {
     name: 'HeaderComponent',
     components: {
         NavBarComponent,
         HeroComponent,
+        
     },
-    setup () {
+    data () {
         
 
-        return {}
+        return {
+            
+        }
     }
 }
 </script>
