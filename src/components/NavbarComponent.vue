@@ -1,7 +1,7 @@
 <template>
     <div class="col co">
-        <div class="d-flex pt-3">
-            <img src="../assets/icon/favicon-180x180.png" alt="logo">
+        <div class="d-flex pt-3 ps-3">
+            <img src="../assets/icon/dark-logo.png" alt="logo">
         </div>
     </div>
     <div class="col d-flex pt-3 gap-3 align-items-center">
@@ -86,8 +86,8 @@
 
 <style lang="scss" scoped>
    img {
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 30px;
    }
    
    button {

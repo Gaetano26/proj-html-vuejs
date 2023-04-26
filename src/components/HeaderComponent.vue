@@ -10,7 +10,7 @@
                     <HeroComponent />
 
                 </div>
-       </div>
+        </div>
 
     </header>
 </template>
@@ -34,7 +34,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
- .bck {
+ header {
     background-image: url('../assets/icon/background-pattern-wavify.png');
+    background-color: #f5f1ed;
  }
 </style>
