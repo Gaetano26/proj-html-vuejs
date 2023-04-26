@@ -31,6 +31,12 @@
       </div>
     </div>
   </div>
+  <div class="container marg">
+    <div class="row">
+      <BookStoreComponent />
+
+    </div>
+  </div>
 </template>
 
 <script>
@@ -38,6 +44,7 @@ import InfoComponent from '../components/InfoComponent.vue';
 import AboutMeComponent from '../components/AboutMeComponents.vue'
 import VideoComponent from '../components/VideoComponent.vue'
 import LatestCourses from '../components/LatestCourses.vue'
+import BookStoreComponent from '../components/BookStoreComponent.vue';
 import { infos } from '../data/store';
 import { courses } from '../data/store';
 
@@ -48,6 +55,7 @@ export default {
        AboutMeComponent,
        VideoComponent,
        LatestCourses,
+       BookStoreComponent,
   },
   data () {
     

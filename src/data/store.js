@@ -63,6 +63,21 @@
         students: '50 Students'
     },
 
+
  ]
 
- export { infos, courses }
+ const books = [
+    { image: '/public/images/product-book-11-400x400.jpg',
+      name: 'Alpha man by Maxcoach',
+      price: '$29,00'
+
+    },
+    { image: '/public/images/product-book-10-400x400.jpg',
+    name: 'Real man 4.0 by Maxcoach',
+    price: '$39,00'
+
+  }
+
+ ]
+
+ export { infos, courses, books }
