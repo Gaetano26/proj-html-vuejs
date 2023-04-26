@@ -36,4 +36,7 @@ export default {
    h3 {
     color: #3f3a64;
    }
+   img:hover {
+    border-radius: 4%;
+   }
 </style>
