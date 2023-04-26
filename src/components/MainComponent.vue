@@ -9,11 +9,17 @@
       <AboutMeComponent />
     </div>
   </div>
+  <div class="container marg2">
+    <div class="row">
+      <VideoComponent />
+    </div>
+  </div>
 </template>
 
 <script>
 import InfoComponent from '../components/InfoComponent.vue';
 import AboutMeComponent from '../components/AboutMeComponents.vue'
+import VideoComponent from '../components/VideoComponent.vue'
 import { infos } from '../data/store';
 
 export default {
@@ -21,6 +27,7 @@ export default {
   components: {
        InfoComponent,
        AboutMeComponent,
+       VideoComponent,
   },
   data () {
     
@@ -35,5 +42,8 @@ export default {
 <style lang="scss" scoped>
  .marg {
   margin-top: 170px;
+ }
+ .marg2 {
+  margin-top: 80px;
  }
 </style>
