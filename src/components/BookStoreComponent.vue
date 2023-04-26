@@ -4,9 +4,9 @@
         <h2 class="fs-1 mt-3">Be Alpha With <span>Wingman's Book</span></h2>
         <div class="mt-5">
             <p><i class="fa-solid fa-check"></i>  Help you understand your self better</p>
-            <p><i class="fa-solid fa-check"></i>  Help you understand your self better</p>
-            <p><i class="fa-solid fa-check"></i>  Help you understand your self better</p>
-            <p><i class="fa-solid fa-check"></i>  Help you understand your self better</p>
+            <p><i class="fa-solid fa-check"></i>  Revealing mature tips</p>
+            <p><i class="fa-solid fa-check"></i>  Give the right advice</p>
+            <p><i class="fa-solid fa-check"></i>  Fascinating examples of alpha man</p>
             <button type="button" class="btn text-white mt-5 fw-bold">Get Free EBook</button>
 
         </div>

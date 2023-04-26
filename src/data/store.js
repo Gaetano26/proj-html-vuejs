@@ -80,4 +80,27 @@
 
  ]
 
- export { infos, courses, books }
+const clientLog = [
+    {
+        image: '/public/images/client-logo-05-primary.png'
+    },
+    {
+        image: '/public/images/client-logo-06-primary.png'
+    },
+    {
+        image: '/public/images/client-logo-07-primary.png'
+    },
+    {
+        image: '/public/images/client-logo-04-primary.png'
+    },
+    {
+        image: '/public/images/client-logo-03-primary.png'
+    },
+    {
+        image: '/public/images/client-logo-02-primary.png'
+    }
+]
+
+
+
+ export { infos, courses, books, clientLog }

@@ -6,7 +6,7 @@
   </div>
   <div class="container marg">
     <div class="row">
-      <AboutMeComponent />
+      <AboutMeComponents />
     </div>
   </div>
   <div class="container marg2">
@@ -37,32 +37,42 @@
 
     </div>
   </div>
+  <div class="container marg">
+    <div class="row row-cols-md-6 m-0">
+        <ClientLogComponent v-for="log in clientLog" :image="log.image"/>
+
+    </div>
+    </div>
 </template>
 
 <script>
 import InfoComponent from '../components/InfoComponent.vue';
-import AboutMeComponent from '../components/AboutMeComponents.vue'
+import AboutMeComponents from '../components/AboutMeComponents.vue'
 import VideoComponent from '../components/VideoComponent.vue'
 import LatestCourses from '../components/LatestCourses.vue'
 import BookStoreComponent from '../components/BookStoreComponent.vue';
+import ClientLogComponent from '../components/ClientLogComponent.vue'
 import { infos } from '../data/store';
 import { courses } from '../data/store';
+import { clientLog } from '../data/store';
 
 export default {
   name: 'MainComponent',
   components: {
        InfoComponent,
-       AboutMeComponent,
+       AboutMeComponents,
        VideoComponent,
        LatestCourses,
        BookStoreComponent,
+       ClientLogComponent,
   },
   data () {
     
 
     return {
       infos,
-      courses
+      courses,
+      clientLog,
     }
   }
 }
