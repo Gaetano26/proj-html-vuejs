@@ -53,4 +53,8 @@ button {
     background-color: #20ad96;
     padding: 13px 60px;
   }
+button:hover {
+    background-color: #3f3a64;
+   
+}
 </style>

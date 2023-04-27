@@ -125,6 +125,9 @@ export default {
     background-color: #20ad96;
     padding: 13px 100px;
   }
+button:hover {
+   background-color:  #3f3a64;
+}
   .back {
     background-image: url('../assets/icon/background-pattern-wavify.png');
     background-color: #f5f1ed;

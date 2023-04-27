@@ -39,4 +39,7 @@ export default {
    img:hover {
     border-radius: 4%;
    }
+.col:hover {
+    box-shadow: 10px 5px 10px 5px #20ad96;
+}
 </style>
