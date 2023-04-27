@@ -19,7 +19,7 @@
 
     </div>
     <div class="col">
-        <img src="/public/images/home-movation-testimonial-image-768x562.jpg" alt="">
+        <img class="img-fluid" src="/public/images/home-movation-testimonial-image-768x562.jpg" alt="">
     </div>
 </template>
 

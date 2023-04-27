@@ -99,6 +99,8 @@
    button:hover {
     border-bottom: 2px solid #20ad96;
     color: #20ad96;
+
+    
    }
    
    i {
@@ -109,5 +111,10 @@
         width: 20px;
         height: 20px;
     }
+   }
+   .dropdown:hover {
+     .dropdown-menu {
+        display: block;
+     }
    }
 </style>
