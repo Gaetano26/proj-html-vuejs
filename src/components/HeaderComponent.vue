@@ -16,6 +16,7 @@
 </template>
 
 <script>
+
 import NavBarComponent from '../components/NavbarComponent.vue'
 import HeroComponent from '../components/HeroComponent.vue'
 export default {

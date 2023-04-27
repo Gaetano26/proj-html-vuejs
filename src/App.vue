@@ -11,6 +11,7 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import { testimonials } from './data/store';
 
 export default {
   components: {
@@ -22,6 +23,7 @@ export default {
     
 
     return {
+      testimonials
     }
   }
 }

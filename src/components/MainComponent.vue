@@ -42,7 +42,12 @@
         <ClientLogComponent v-for="log in clientLog" :image="log.image"/>
 
     </div>
+  </div>
+  <div class="container-fluid marg back">
+    <div class="row row-cols-md-2">
+     <RealStoriesComponent />
     </div>
+  </div>
 </template>
 
 <script>
@@ -52,6 +57,7 @@ import VideoComponent from '../components/VideoComponent.vue'
 import LatestCourses from '../components/LatestCourses.vue'
 import BookStoreComponent from '../components/BookStoreComponent.vue';
 import ClientLogComponent from '../components/ClientLogComponent.vue'
+import RealStoriesComponent from '../components/RealStoriesComponent.vue';
 import { infos } from '../data/store';
 import { courses } from '../data/store';
 import { clientLog } from '../data/store';
@@ -65,6 +71,7 @@ export default {
        LatestCourses,
        BookStoreComponent,
        ClientLogComponent,
+       RealStoriesComponent,
   },
   data () {
     
@@ -96,5 +103,9 @@ export default {
  button {
     background-color: #20ad96;
     padding: 13px 100px;
+  }
+  .back {
+    background-image: url('../assets/icon/background-pattern-wavify.png');
+    background-color: #f5f1ed;
   }
 </style>

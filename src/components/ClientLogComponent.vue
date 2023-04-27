@@ -7,7 +7,7 @@
 <script>
 
 import { clientLog } from '../data/store';
-export default {
+export default{
     props: ['image'],
     setup () {
         

@@ -101,6 +101,37 @@ const clientLog = [
     }
 ]
 
+const testimonials = [
+    {
+        image: '/public/images/testimonial-avata-02.jpg',
+        text:  'I am free to learn at my own pace, follow my own schedule and choose the subject i want to learn from the syllabus. Great study portal for people like me.',
+        role: '/freelancer',
+        name : 'Mina Hollace',
+        number : 1
+    },
+    {
+        image: '/public/images/testimonial-avata-01.jpg',
+        text:  'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit aperiam iusto laborum quo voluptatem amet ab nemo rerum maxime corporis ut error distinctio assumenda placeat consectetur animi rem, odio adipisci!',
+        role: '/Developer',
+        name : 'Patrick Jane',
+        number : 2
+    },
+    {
+        image: '/public/images/testimonial-avata-03.jpg',
+        text:  'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sunt neque nostrum! Quae, facilis minus?',
+        role: '/Manager',
+        name : 'Ted Stark',
+        number : 3
+    },
+    {
+        image: '/public/images/testimonial-avata-04.jpg',
+        text:  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, porro quaerat excepturi rerum repudiandae, tempore cum impedit atque exercitationem, suscipit labore deleniti maxime sed mollitia?',
+        role: '/Studend',
+        name : 'Clark kent',
+        number : 4
+    },
+]
 
 
- export { infos, courses, books, clientLog }
+
+ export { infos, courses, books, clientLog, testimonials }
