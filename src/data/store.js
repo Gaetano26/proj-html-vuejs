@@ -130,8 +130,38 @@ const testimonials = [
         name : 'Clark kent',
         number : 4
     },
+] 
+const blog = [
+    {
+        image: '/public/images/motivation-blog-04-480x325.jpg',
+        name:  'How to Stay True to Your Personal Brand',
+        data: 'May 13, 2020',
+        text : 'When it cames to your business of career, you want...',
+        
+    },
+    {
+        image: '/public/images/motivation-blog-03-480x325.jpg',
+        text:  'Being self-employed and working from home, its easy to get...',
+        data: 'May 13, 2020',
+        name : '5 Vital Lessons in 5 Years of Freelancing',
+        
+    },
+    {
+        image:'/public/images/motivation-blog-02-480x325.jpg',
+        text:  'Being a small-business owner poses a ton of challenges. We...',
+        data: 'May 13, 2020',
+        name : '11 Super Useful Tips for Small-Business Owner',
+       
+    },
+    {
+        image: '/public/images/motivation-blog-01-480x325.jpg',
+        text:  'Forgive yourself for bad habit you may have started or...',
+        data: 'May 13, 2020',
+        name : 'How to Give Yourself Grace to Start Again ',
+        
+    },
 ]
 
 
 
- export { infos, courses, books, clientLog, testimonials }
+ export { infos, courses, books, clientLog, testimonials, blog }

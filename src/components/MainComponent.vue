@@ -48,6 +48,23 @@
      <RealStoriesComponent />
     </div>
   </div>
+  <div class="container marg">
+    <div class="row">
+      <div class="col">
+        <h6>Blog Updated</h6>
+        <h2>Interesting <span>articles update</span> daily</h2>
+      </div>
+    </div>
+    <div class="row row-cols-md-4 mt-5">
+      <BlogComponents v-for="choice in blog"  :image="choice.image" :data="choice.data" :text="choice.text" :name="choice.name"/>
+    </div>
+    <div class="row mt-4">
+      <div class="col text-center">
+         <a class="fw-bold" href="">View all posts</a>
+      </div>
+    </div>
+    
+  </div>
 </template>
 
 <script>
@@ -58,9 +75,11 @@ import LatestCourses from '../components/LatestCourses.vue'
 import BookStoreComponent from '../components/BookStoreComponent.vue';
 import ClientLogComponent from '../components/ClientLogComponent.vue'
 import RealStoriesComponent from '../components/RealStoriesComponent.vue';
+import BlogComponents from '../components/BlogComponents.vue';
 import { infos } from '../data/store';
 import { courses } from '../data/store';
 import { clientLog } from '../data/store';
+import { blog } from '../data/store';
 
 export default {
   name: 'MainComponent',
@@ -72,6 +91,7 @@ export default {
        BookStoreComponent,
        ClientLogComponent,
        RealStoriesComponent,
+       BlogComponents,
   },
   data () {
     
@@ -80,6 +100,7 @@ export default {
       infos,
       courses,
       clientLog,
+      blog,
     }
   }
 }
@@ -107,5 +128,17 @@ export default {
   .back {
     background-image: url('../assets/icon/background-pattern-wavify.png');
     background-color: #f5f1ed;
+  }
+  h6 {
+    text-transform: uppercase;
+  }
+
+  a {
+    color:  #20ad96;
+    text-decoration: none;
+    border-bottom: 2px solid  #20ad96 ;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 3px;
   }
 </style>
